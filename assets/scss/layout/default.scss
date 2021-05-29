@@ -1,0 +1,12 @@
+.layout--default {
+  min-height: 100vh;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #fff;
+}
+
+.main {
+  flex: 1;
+}
