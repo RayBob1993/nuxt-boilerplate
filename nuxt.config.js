@@ -5,7 +5,7 @@ config();
 
 export default {
   server: {
-    port: process.env.APP_PORT,
+    port: process.env.APP_PORT
   },
   head: {
     title: 'morizo-nuxt',
@@ -49,7 +49,9 @@ export default {
     '@/plugins/components'
   ],
   buildModules: [
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/stylelint-module',
+    '@nuxtjs/eslint-module'
   ],
   modules: [
     '@nuxtjs/dotenv',
@@ -59,4 +61,4 @@ export default {
   build: {
     extractCSS: isProduction
   }
-}
+};
