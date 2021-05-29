@@ -9,12 +9,12 @@ module.exports = {
     './**/*.js',
     './**/*.json'
   ],
-  defaultSeverity: "error",
+  defaultSeverity: 'error',
   rules: {
     'block-no-empty': true,
     'no-empty-source': null,
     'comment-no-empty': true,
-    'indentation': 2,
+    indentation: 2,
     'plugin/rational-order': [
       true,
       {
@@ -23,4 +23,4 @@ module.exports = {
       }
     ]
   }
-}
+};

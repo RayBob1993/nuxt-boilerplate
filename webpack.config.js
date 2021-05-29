@@ -1,5 +1,4 @@
-const webpack = require('webpack')
-const { resolve } = require('path')
+const { resolve } = require('path');
 
 module.exports = {
   resolve: {
@@ -9,12 +8,12 @@ module.exports = {
       '.vue',
       '.ts',
       '.css',
-      '.scss',
+      '.scss'
     ],
     root: resolve(__dirname),
     alias: {
       '@': resolve(__dirname),
-      '~': resolve(__dirname),
-    },
-  },
-}
+      '~': resolve(__dirname)
+    }
+  }
+};

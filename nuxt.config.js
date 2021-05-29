@@ -1,5 +1,5 @@
 import { config } from 'dotenv';
-import { isProduction, isDevelopment } from './utils/env';
+import { isProduction } from './utils/env';
 
 config();
 

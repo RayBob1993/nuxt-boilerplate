@@ -7,17 +7,17 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint:css": "stylelint **/*.{css,scss,vue} --fix --ignore-path .gitignore",
-    "lint:js": "eslint --ext **/*.{js,vue} --fix --ignore-path .gitignore .",
-    "lint": "yarn lint:css && yarn lint:js"
+    "lint:style": "stylelint --fix \"**/*.{vue,scss,css}\" --ignore-path .gitignore",
+    "lint:js": "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:style && yarn lint:js"
   },
   "lint-staged": {
     "*.{js,vue}": [
-      "eslint --ext **/*.{js,vue} --fix --ignore-path .gitignore .",
+      "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
       "git add"
     ],
     "*.{css,scss,vue}": [
-      "stylelint **/*.{css,scss,vue} --fix --ignore-path .gitignore",
+      "stylelint --fix \"**/*.{vue,scss,css}\" --ignore-path .gitignore",
       "git add"
     ]
   },
@@ -44,6 +44,7 @@
     "@nuxtjs/stylelint-module": "^4.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.27.0",
+    "eslint-plugin-vue": "^7.10.0",
     "fibers": "^5.0.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
