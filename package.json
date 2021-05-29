@@ -6,24 +6,7 @@
     "serve": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ignore-path .gitignore --ext .js,.vue .",
-    "lint:style": "stylelint **/*.{css,scss,vue} --ignore-path .gitignore --fix",
-    "lint:prettier": "prettier **/*.{js,json,css,scss,vue,html,md}",
-    "lint:markdownlint": "markdownlint *.md",
-    "lint": "yarn lint:js && yarn lint:style && yarn lint:prettier && yarn lint:markdownlint"
-  },
-  "lint-staged": {
-    "*.{js,json,css,scss,vue,md}": "prettier --write",
-    "*.{js,vue}": "eslint --fix",
-    "*.{css,scss,vue}": "stylelint --fix",
-    "*.{md}": "markdownlint"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "post-commit": "git update-index -g"
-    }
+    "generate": "nuxt generate"
   },
   "engines": {
     "node": ">= 12.14.0"
@@ -34,30 +17,11 @@
     "nuxt": "^2.15.6"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
     "@nuxtjs/dotenv": "^1.4.1",
-    "@nuxtjs/eslint-config": "^6.0.1",
-    "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/style-resources": "^1.0.0",
-    "@nuxtjs/stylelint-module": "^4.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.27.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-vue": "^7.10.0",
     "fibers": "^5.0.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
-    "markdownlint-cli": "^0.27.1",
-    "prettier": "^2.3.0",
     "sass": "^1.34.0",
-    "sass-loader": "10",
-    "stylelint": "^13.13.1",
-    "stylelint-config-prettier": "^8.0.2",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-scss": "^3.19.0"
+    "sass-loader": "10"
   }
 }

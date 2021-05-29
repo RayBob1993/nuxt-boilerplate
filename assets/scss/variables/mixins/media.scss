@@ -97,7 +97,7 @@
 }
 
 // Media print
-@mixin media-print  {
+@mixin media-print {
   @media print {
     @content;
   }

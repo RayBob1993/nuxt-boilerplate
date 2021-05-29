@@ -1,21 +1,23 @@
-.align-items-start {
-  align-items: flex-start;
-}
+.align-items {
+  &-start {
+    align-items: flex-start;
+  }
 
-.align-items-center {
-  align-items: center;
-}
+  &-center {
+    align-items: center;
+  }
 
-.align-items-end {
-  align-items: flex-end;
-}
+  &-end {
+    align-items: flex-end;
+  }
 
-.align-items-baseline {
-  align-items: baseline;
-}
+  &-baseline {
+    align-items: baseline;
+  }
 
-.align-items-stretch {
-  align-items: stretch;
+  &-stretch {
+    align-items: stretch;
+  }
 }
 
 @include media-xxl-down {

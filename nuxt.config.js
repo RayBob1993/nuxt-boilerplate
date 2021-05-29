@@ -49,9 +49,7 @@ export default {
     '@/plugins/components'
   ],
   buildModules: [
-    '@nuxtjs/style-resources',
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/stylelint-module'
+    '@nuxtjs/style-resources'
   ],
   modules: [
     '@nuxtjs/dotenv',

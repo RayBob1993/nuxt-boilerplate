@@ -1,5 +1,5 @@
 <template>
-  <div class="layout layout--default">
+  <div class="layout layout-default">
     <app-header/>
 
     <main class="main">
