@@ -25,7 +25,7 @@
     "hooks": {
       "pre-commit": "lint-staged",
       "post-commit": "git update-index -g",
-      "commit-msg": "commitlint"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "engines": {
