@@ -37,6 +37,8 @@ module.exports = {
         allowFirstLine: false
       }
     }],
+    'vue/prop-name-casing': ['error', 'camelCase'],
+    'vue/attribute-hyphenation': ['error', 'always'],
     semi: [2, 'always',
       {
         omitLastInOneLineBlock: false
