@@ -29,7 +29,7 @@
     }
   },
   "engines": {
-    "node": ">= 12.14.0"
+    "node": ">= 14.17.0"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
