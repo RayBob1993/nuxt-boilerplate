@@ -1,7 +1,7 @@
 # Morizo-nuxt frontend
 
 ## Системные требования
-* Node >= 12.14.0
+* Node >= 14.17.0
 
 ## Ссылки окружений
 * live - [https://mysite.com/](https://mysite.com/)
