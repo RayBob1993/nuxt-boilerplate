@@ -19,6 +19,10 @@ module.exports = {
     'vue/html-closing-bracket-spacing': ['error', {
       selfClosingTag: 'never'
     }],
+    'vue/singleline-html-element-content-newline': ['error', {
+      ignoreWhenNoAttributes: true,
+      ignoreWhenEmpty: true
+    }],
     'vue/component-name-in-template-casing': [
       'error', 'kebab-case',
       {
