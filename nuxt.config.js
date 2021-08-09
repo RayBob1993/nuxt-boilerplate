@@ -59,6 +59,11 @@ export default {
   ],
   axios: {},
   build: {
-    extractCSS: isProduction
+    extractCSS: isProduction,
+    babel: {
+      plugins: [
+        ['@babel/plugin-proposal-private-property-in-object', { loose: true }]
+      ]
+    }
   }
 };
