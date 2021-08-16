@@ -51,6 +51,7 @@ module.exports = {
       }
     }],
     'vue/prop-name-casing': ['error', 'camelCase'],
+    'vue/attributes-order': ['error'],
     'vue/attribute-hyphenation': ['error', 'always'],
     'arrow-parens': ['error', 'as-needed'],
     semi: [2, 'always',
