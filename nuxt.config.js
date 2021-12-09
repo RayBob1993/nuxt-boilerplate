@@ -57,7 +57,9 @@ export default {
     '@nuxtjs/dotenv',
     '@nuxtjs/axios'
   ],
-  axios: {},
+  axios: {
+    baseUrl: process.env.API_HOST + process.env.API_PREFIX
+  },
   build: {
     extractCSS: isProduction,
     babel: {
