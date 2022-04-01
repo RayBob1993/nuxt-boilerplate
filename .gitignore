@@ -7,6 +7,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
 # Runtime data
 pids
 *.pid
@@ -67,9 +68,15 @@ typings/
 
 # nuxt.js build output
 .nuxt
+.nuxt-storybook
 
 # Nuxt generate
 dist
+storybook-static
+
+# Lock files
+yarn.lock
+package-lock.json
 
 # vuepress build output
 .vuepress/dist
@@ -88,3 +95,4 @@ sw.*
 
 # Vim swap files
 *.swp
+/.lighthouseci/

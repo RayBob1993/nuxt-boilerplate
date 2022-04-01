@@ -14,7 +14,10 @@ module.exports = {
     'block-no-empty': true,
     'no-empty-source': null,
     'comment-no-empty': true,
-    indentation: 2,
+    indentation: [2, {
+      baseIndentLevel: 1
+    }],
+    'declaration-block-semicolon-newline-after': 'always',
     'plugin/rational-order': [
       true,
       {

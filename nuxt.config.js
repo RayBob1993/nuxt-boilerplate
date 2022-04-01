@@ -4,6 +4,7 @@ import { isProduction } from './utils/env';
 config();
 
 export default {
+  modern: 'server',
   server: {
     port: process.env.APP_PORT
   },
@@ -24,6 +25,27 @@ export default {
         hid: 'description',
         name: 'description',
         content: ''
+      },
+      {
+        hid: 'apple-mobile-web-app-title',
+        name: 'apple-mobile-web-app-title',
+        content: ''
+      },
+      {
+        hid: 'application-name',
+        name: 'application-name',
+        lang: 'ru',
+        content: ''
+      },
+      {
+        hid: 'msapplication-TileColor',
+        name: 'msapplication-TileColor',
+        content: '#fff'
+      },
+      {
+        hid: 'theme-color',
+        name: 'theme-color',
+        content: '#fff'
       }
     ],
     link: [
@@ -49,12 +71,13 @@ export default {
     '@/plugins/components'
   ],
   buildModules: [
+    '@nuxtjs/dotenv',
     '@nuxtjs/style-resources',
     '@nuxtjs/stylelint-module',
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    'nuxt-compress'
   ],
   modules: [
-    '@nuxtjs/dotenv',
     '@nuxtjs/axios'
   ],
   axios: {

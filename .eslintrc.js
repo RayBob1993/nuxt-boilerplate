@@ -19,15 +19,6 @@ module.exports = {
     'vue/html-closing-bracket-spacing': ['error', {
       selfClosingTag: 'never'
     }],
-    'vue/html-self-closing': ['error', {
-      html: {
-        void: 'never',
-        normal: 'always',
-        component: 'always'
-      },
-      svg: 'always',
-      math: 'always'
-    }],
     'vue/singleline-html-element-content-newline': ['error', {
       ignoreWhenNoAttributes: true,
       ignoreWhenEmpty: true
@@ -38,6 +29,15 @@ module.exports = {
         registeredComponentsOnly: false
       }
     ],
+    'vue/html-self-closing': ['error', {
+      html: {
+        void: 'never',
+        normal: 'always',
+        component: 'always'
+      },
+      svg: 'always',
+      math: 'always'
+    }],
     'vue/html-indent': ['error', 2, {
       alignAttributesVertically: true
     }],
