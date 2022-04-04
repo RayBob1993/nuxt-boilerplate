@@ -68,7 +68,8 @@ export default {
     }
   ],
   plugins: [
-    '@/plugins/components'
+    '@/plugins/components',
+    '@/plugins/exception'
   ],
   buildModules: [
     '@nuxtjs/dotenv',
