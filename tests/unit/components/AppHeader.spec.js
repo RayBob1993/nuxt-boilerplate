@@ -7,10 +7,4 @@ describe('AppHeader.vue', () => {
 
     expect(wrapper.vm).toBeTruthy();
   });
-
-  test('Рендер прошёл успешно', () => {
-    const wrapper = mount(AppHeader);
-
-    expect(wrapper.vm).toBeTruthy();
-  });
 });

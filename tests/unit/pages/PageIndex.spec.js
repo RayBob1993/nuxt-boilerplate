@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils';
-import AppFooter from '@/components/AppFooter.vue';
+import Index from '@/pages/index.vue';
 
-describe('AppFooter.vue', () => {
+describe('index.vue', () => {
   test('Является экземпляром Vue', () => {
-    const wrapper = mount(AppFooter);
+    const wrapper = mount(Index);
 
     expect(wrapper.vm).toBeTruthy();
   });
