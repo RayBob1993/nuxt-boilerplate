@@ -16,6 +16,7 @@ module.exports = {
     'plugin:vue/recommended'
   ],
   rules: {
+    'vue/component-definition-name-casing': ['error', 'PascalCase'],
     'vue/html-closing-bracket-spacing': ['error', {
       selfClosingTag: 'never'
     }],
