@@ -1,4 +1,4 @@
-# Morizo-nuxt boilerplate
+# Nuxt boilerplate
 
 ## Системные требования
 * Node >= 16.14.2
