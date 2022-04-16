@@ -67,7 +67,7 @@ API_PREFIX=/api
 ```
 
 ## Запуск проекта
-####yarn
+#### yarn
 ``` bash
 # Установка зависимостей
 $ yarn
@@ -78,7 +78,8 @@ $ yarn serve
 # Запуск nuxt на production сервере
 $ yarn build && yarn start
 ```
-####npm
+
+#### npm
 ``` bash
 # Установка зависимостей
 $ npm install
@@ -88,4 +89,17 @@ $ npm run serve
 
 # Запуск nuxt на production сервере
 $ npm run build && npm run start
+```
+
+## Инструменты
+#### lint
+Линтинг кода
+``` bash
+$ yarn lint
+```
+
+#### test
+Запуск тестов
+``` bash
+$ yarn test
 ```
