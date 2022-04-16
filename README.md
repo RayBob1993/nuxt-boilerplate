@@ -14,7 +14,7 @@
 ``` bash
 NODE_ENV=development
 
-APP_NAME=morizo-nuxt
+APP_NAME=nuxt-boilerplate
 # Порт для старта локального сервера
 APP_PORT=3000
 
@@ -28,7 +28,7 @@ API_PREFIX=/api
 ``` bash
 NODE_ENV=production
 
-APP_NAME=morizo-nuxt
+APP_NAME=nuxt-boilerplate
 # Порт для старта nuxt сервера
 APP_PORT=3000
 
@@ -42,7 +42,7 @@ API_PREFIX=/api
 ``` bash
 NODE_ENV=production
 
-APP_NAME=morizo-nuxt
+APP_NAME=nuxt-boilerplate
 # Порт для старта nuxt сервера
 APP_PORT=3000
 
@@ -56,7 +56,7 @@ API_PREFIX=/api
 ``` bash
 NODE_ENV=development
 
-APP_NAME=morizo-nuxt
+APP_NAME=nuxt-boilerplate
 # Порт для старта nuxt сервера
 APP_PORT=3000
 
