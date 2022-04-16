@@ -4,6 +4,7 @@
 * Node >= 16.14.2
 
 ## Ссылки окружений
+* API Documentation - [https://mysite.com](https://mysite.com)
 * live - [https://mysite.com/](https://mysite.com/)
 * stage - [https://stage.mysite.com/](https://stage.mysite.com/)
 * dev - [https://dev.mysite.com/](https://dev.mysite.com/)
@@ -14,7 +15,7 @@
 NODE_ENV=development
 
 APP_NAME=morizo-nuxt
-# Порт для старта nuxt сервера
+# Порт для старта локального сервера
 APP_PORT=3000
 
 # Адрес сервера с api
@@ -71,7 +72,7 @@ API_PREFIX=/api
 # Установка зависимостей
 $ yarn
 
-# Запуск dev сервера localhost:3000
+# Запуск локального сервера localhost:3000
 $ yarn serve
 
 # Запуск nuxt на production сервере

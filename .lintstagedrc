@@ -1,10 +1,10 @@
 {
   "*.{js,vue}": [
-    "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
+    "eslint --fix",
     "git add"
   ],
   "*.{vue,scss,css}": [
-    "stylelint --fix \"**/*.{vue,scss,css}\" --ignore-path .gitignore",
+    "stylelint --fix",
     "git add"
   ]
 }

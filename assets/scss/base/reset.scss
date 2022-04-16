@@ -16,14 +16,12 @@ body {
   margin: 0;
 
   color: $color-black;
-
   font-size: $font-size-default;
   font-family: $font-family-default;
   line-height: $line-height-default;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

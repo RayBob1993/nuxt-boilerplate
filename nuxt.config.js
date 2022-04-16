@@ -9,7 +9,7 @@ export default {
     port: process.env.APP_PORT
   },
   head: {
-    title: 'morizo-nuxt',
+    title: 'mysite-nuxt',
     htmlAttrs: {
       lang: 'ru'
     },
@@ -58,6 +58,7 @@ export default {
   },
   styleResources: {
     scss: [
+      '@/assets/scss/mixins/index.scss',
       '@/assets/scss/variables/index.scss'
     ]
   },
