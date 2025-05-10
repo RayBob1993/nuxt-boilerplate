@@ -1,4 +1,4 @@
-# Nuxt boilerplate
+# Nuxt 2 boilerplate
 
 ## Системные требования
 * Node >= 16.14.2
